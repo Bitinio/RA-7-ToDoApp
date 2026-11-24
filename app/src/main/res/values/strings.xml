@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2019 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+     ARCHIVO DE RECURSOS DE TEXTO (strings.xml)
+     Feature #4: Modificación de mensajes en pantalla.
+     Contiene todos los textos de la interfaz traducidos y personalizados al español
+     para las pantallas de lista, edición, estadísticas y notificaciones (Snackbar).
+-->
+<resources>
+    <!-- Nombre oficial de la aplicación según los requerimientos -->
+    <string name="app_name">ToDoApp</string>
+
+    <!-- Títulos de pantallas y acciones principales -->
+    <string name="add_task">Nueva Tarea</string>
+    <string name="edit_task">Editar Tarea</string>
+    <string name="task_details">Detalles de la Tarea</string>
+
+    <!-- Mensajes emergentes (Snackbar) y alertas de Room -->
+    <string name="task_marked_complete">¡Tarea marcada como completada!</string>
+    <string name="task_marked_active">Tarea reactivada como pendiente</string>
+    <string name="loading_tasks_error">Error al cargar las tareas desde Room</string>
+    <string name="loading_task_error">Error al cargar el detalle de la tarea</string>
+    <string name="task_not_found">No se encontró la tarea solicitada</string>
+    <string name="completed_tasks_cleared">Tareas completadas eliminadas</string>
+    <string name="empty_task_message">El título o descripción no pueden estar vacíos</string>
+    <string name="successfully_saved_task_message">Cambios guardados en memoria local</string>
+    <string name="successfully_deleted_task_message">Tarea eliminada correctamente</string>
+    <string name="successfully_added_task_message">¡Nueva tarea registrada con éxito!</string>
+
+    <!-- Menús y navegación -->
+    <string name="menu_filter">Filtrar</string>
+    <string name="open_drawer">Abrir menú lateral</string>
+    <string name="menu_back">Regresar</string>
+    <string name="menu_clear">Limpiar completadas</string>
+    <string name="menu_delete_task">Eliminar tarea</string>
+    <string name="menu_more">Más opciones</string>
+    <string name="navigation_view_header_title">ToDoApp • Gestor</string>
+    <string name="list_title">Lista de Tareas</string>
+    <string name="refresh">Actualizar lista</string>
+
+    <!-- Campos de formulario (Agregar / Editar) -->
+    <string name="title_hint">Título de la tarea</string>
+    <string name="description_hint">Escribe aquí los detalles de tu pendiente...</string>
+    <string name="cd_save_task">Guardar tarea</string>
+
+    <!-- Pantalla de Estadísticas -->
+    <string name="statistics_title">Estadísticas</string>
+    <string name="statistics_no_tasks">Aún no hay datos para calcular estadísticas.</string>
+    <string name="statistics_active_tasks">Tareas pendientes: %.1f%%</string>
+    <string name="statistics_completed_tasks">Tareas completadas: %.1f%%</string>
+    <string name="statistics_error">Error al calcular las estadísticas.</string>
+    <string name="no_data">Sin datos disponibles</string>
+    <string name="loading">CARGANDO...</string>
+
+    <!-- Opciones de filtrado -->
+    <string-array name="list_tasks_array">
+        <item>@string/nav_all</item>
+        <item>@string/nav_active</item>
+        <item>@string/nav_completed</item>
+    </string-array>
+    <string name="nav_all">Todas</string>
+    <string name="nav_active">Pendientes</string>
+    <string name="nav_completed">Completadas</string>
+    <string name="label_all">Todas mis tareas</string>
+    <string name="label_active">Tareas pendientes</string>
+    <string name="label_completed">Tareas completadas</string>
+
+    <!-- Mensajes de Estado Vacío (Empty State - Feature #2) -->
+    <string name="no_tasks_all">¡No tienes tareas registradas!</string>
+    <string name="no_tasks_active">¡Excelente! No tienes tareas pendientes.</string>
+    <string name="no_tasks_completed">Aún no has completado ninguna tarea.</string>
+    <string name="no_data_description" />
+
+    <!-- Descripciones de accesibilidad para imágenes -->
+    <string name="tasks_header_image_content_description">Imagen de cabecera de tareas</string>
+    <string name="no_tasks_image_content_description">Ícono de lista de tareas vacía</string>
+
+</resources>
